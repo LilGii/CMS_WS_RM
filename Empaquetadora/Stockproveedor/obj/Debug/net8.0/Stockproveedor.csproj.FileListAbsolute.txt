@@ -1,0 +1,75 @@
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\bin\Debug\net8.0\appsettings.json
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\bin\Debug\net8.0\Stockproveedor.exe
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\bin\Debug\net8.0\Stockproveedor.deps.json
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\bin\Debug\net8.0\Stockproveedor.runtimeconfig.json
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\bin\Debug\net8.0\Stockproveedor.dll
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\bin\Debug\net8.0\Stockproveedor.pdb
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\bin\Debug\net8.0\System.Net.Http.Json.dll
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\obj\Debug\net8.0\Stockproveedor.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\obj\Debug\net8.0\Stockproveedor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\obj\Debug\net8.0\Stockproveedor.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\obj\Debug\net8.0\Stockproveedor.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\obj\Debug\net8.0\Stockproveedor.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\obj\Debug\net8.0\Stockproveedor.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\obj\Debug\net8.0\Stockproveedor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\obj\Debug\net8.0\staticwebassets\msbuild.Stockproveedor.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\obj\Debug\net8.0\staticwebassets\msbuild.build.Stockproveedor.props
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Stockproveedor.props
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Stockproveedor.props
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\obj\Debug\net8.0\scopedcss\bundle\Stockproveedor.styles.css
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\obj\Debug\net8.0\Stockpro.59CCF454.Up2Date
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\obj\Debug\net8.0\Stockproveedor.dll
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\obj\Debug\net8.0\refint\Stockproveedor.dll
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\obj\Debug\net8.0\Stockproveedor.pdb
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\obj\Debug\net8.0\Stockproveedor.genruntimeconfig.cache
+C:\Users\Administrator\Documents\Visual Studio 2022\Projects\Stockproveedor\obj\Debug\net8.0\ref\Stockproveedor.dll
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\bin\Debug\net8.0\Api-Stock.postman_collection.json
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\bin\Debug\net8.0\appsettings.Development.json
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\bin\Debug\net8.0\appsettings.json
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\bin\Debug\net8.0\Stockproveedor.exe
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\bin\Debug\net8.0\Stockproveedor.deps.json
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\bin\Debug\net8.0\Stockproveedor.runtimeconfig.json
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\bin\Debug\net8.0\Stockproveedor.dll
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\bin\Debug\net8.0\Stockproveedor.pdb
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\bin\Debug\net8.0\System.Net.Http.Json.dll
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\bin\Debug\net8.0\System.Text.Json.dll
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\obj\Debug\net8.0\Stockproveedor.csproj.AssemblyReference.cache
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\obj\Debug\net8.0\Stockproveedor.GeneratedMSBuildEditorConfig.editorconfig
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\obj\Debug\net8.0\Stockproveedor.AssemblyInfoInputs.cache
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\obj\Debug\net8.0\Stockproveedor.AssemblyInfo.cs
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\obj\Debug\net8.0\Stockproveedor.csproj.CoreCompileInputs.cache
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\obj\Debug\net8.0\Stockproveedor.MvcApplicationPartsAssemblyInfo.cs
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\obj\Debug\net8.0\Stockproveedor.MvcApplicationPartsAssemblyInfo.cache
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\obj\Debug\net8.0\staticwebassets.build.json
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\obj\Debug\net8.0\staticwebassets.development.json
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\obj\Debug\net8.0\staticwebassets\msbuild.Stockproveedor.Microsoft.AspNetCore.StaticWebAssets.props
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\obj\Debug\net8.0\staticwebassets\msbuild.build.Stockproveedor.props
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Stockproveedor.props
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Stockproveedor.props
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\obj\Debug\net8.0\staticwebassets.pack.json
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\obj\Debug\net8.0\scopedcss\bundle\Stockproveedor.styles.css
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\obj\Debug\net8.0\Stockpro.59CCF454.Up2Date
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\obj\Debug\net8.0\Stockproveedor.dll
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\obj\Debug\net8.0\refint\Stockproveedor.dll
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\obj\Debug\net8.0\Stockproveedor.pdb
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\obj\Debug\net8.0\Stockproveedor.genruntimeconfig.cache
+C:\wamp64\www\Proyecto_final_ws_ENRUTADO\Empaquetadora\Stockproveedor\obj\Debug\net8.0\ref\Stockproveedor.dll

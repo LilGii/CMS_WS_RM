@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteBase /Proyecto_final_ws_ENRUTADO/
+
+# Reglas para pedido.php
+RewriteCond %{REQUEST_URI} ^/Proyecto_final_ws_ENRUTADO/pedido/? [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ pedido.php [QSA,L]
+
+# Reglas para Inventario.php
+RewriteCond %{REQUEST_URI} ^/Proyecto_final_ws_ENRUTADO/Inventario/? [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ Inventario.php/$1 [QSA,L]

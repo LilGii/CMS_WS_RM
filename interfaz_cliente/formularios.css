@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #4a4a4a;
+}
+
+.pedido {
+    background-color: #F9C4C2;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.devolucion {
+    background-color: #aefceb;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="button"] {
+    background-color: #ffbb93;
+    color: #fff;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #ff9e7c;
+}
+
+.product-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.product-row input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.product-row button {
+    background-color: #f44336;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.product-row button:hover {
+    background-color: #d32f2f;
+}
+
+#productosContainer {
+    margin-bottom: 20px;
+}

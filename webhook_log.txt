@@ -1,0 +1,48 @@
+Array
+(
+    [id] => PEDIDO1
+    [tipo] => Pedidos
+    [estado] => enviado
+    [mensaje] => Pedidos enviado con éxito.
+    [fecha_entrega] => 2024-11-23
+)
+Array
+(
+    [id] => PEDIDO3
+    [tipo] => Pedidos
+    [estado] => enviado
+    [mensaje] => Pedidos enviado con éxito.
+    [fecha_entrega] => 2024-11-23
+)
+Array
+(
+    [id] => PEDIDO4
+    [tipo] => Pedidos
+    [estado] => enviado
+    [mensaje] => Pedidos enviado con éxito.
+    [fecha_entrega] => 2024-11-23
+)
+Array
+(
+    [id] => PEDIDO5
+    [tipo] => Pedidos
+    [estado] => enviado
+    [mensaje] => Pedidos enviado con éxito.
+    [fecha_entrega] => 2024-11-23
+)
+Array
+(
+    [id] => PEDIDO1
+    [tipo] => Pedidos
+    [estado] => enviado
+    [mensaje] => Pedidos enviado con éxito.
+    [fecha_entrega] => 2024-11-28
+)
+Array
+(
+    [id] => DEV1
+    [tipo] => devoluciones
+    [estado] => enviado
+    [mensaje] => devoluciones enviado con éxito.
+    [fecha_entrega] => 2024-11-28
+)

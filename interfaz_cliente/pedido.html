@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Pedido</title>
+    <link rel="stylesheet" href="formularios.css">
+</head>
+<body>
+    <h1>Levantar Pedido</h1>
+    <form id="pedidoForm" class="pedido">
+        <label for="pedidoID">ID del Pedido:</label>
+        <input type="text" id="pedidoID" name="pedidoID" required>
+        <h3>Productos:</h3>
+        <div id="productosContainer">
+            <div class="product-row">
+                <input type="text" name="producto[]" placeholder="Producto" required>
+                <input type="number" name="cantidad[]" placeholder="Cantidad" min="1" required>
+                <button type="button" onclick="eliminarProducto(this)">Eliminar</button>
+            </div>
+        </div>
+        <button type="button" onclick="agregarProducto()">Agregar Producto</button>
+        <button type="button" onclick="location.href='index.html';">Volver</button>
+        <br><br>
+        <button type="submit">Enviar Pedido</button>
+    </form>
+
+    <script>
+        // Función para agregar una nueva fila de producto
+        function agregarProducto() {
+            const container = document.getElementById('productosContainer');
+            const row = document.createElement('div');
+            row.className = 'product-row';
+            row.innerHTML = `
+                <input type="text" name="producto[]" placeholder="Producto" required>
+                <input type="number" name="cantidad[]" placeholder="Cantidad" min="1" required>
+                <button type="button" onclick="eliminarProducto(this)">Eliminar</button>
+            `;
+            container.appendChild(row);
+        }
+
+        // Función para eliminar una fila de producto
+        function eliminarProducto(button) {
+            const row = button.parentNode;
+            row.remove();
+        }
+
+        // Enviar el formulario usando fetch
+        document.getElementById('pedidoForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const pedidoID = document.getElementById('pedidoID').value;
+            const productos = {};
+
+            const productosInputs = document.querySelectorAll('[name="producto[]"]');
+            const cantidadesInputs = document.querySelectorAll('[name="cantidad[]"]');
+
+            productosInputs.forEach((input, index) => {
+                const producto = input.value;
+                const cantidad = parseInt(cantidadesInputs[index].value, 10);
+
+                if (producto && cantidad) {
+                    productos[producto] = cantidad;
+                }
+            });
+
+            const data = {
+                pedidoID: pedidoID,
+                productos: productos
+            };
+
+            // Enviar datos al servidor
+            fetch('http://localhost/Proyecto_final_ws_ENRUTADO/pedido', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(response => {
+                if (response.error) {
+                    alert('Error: ' + response.error);
+                } else {
+                    alert('Pedido creado exitosamente.');
+                }
+            })
+            .catch(error => {
+                console.error('Error al enviar el pedido:', error);
+                alert('Error al enviar el pedido.');
+            });
+        });
+    </script>
+</body>
+</html>

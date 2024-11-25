@@ -1,0 +1,44 @@
+[
+    {
+        "id": "PEDIDO1",
+        "tipo": "Pedidos",
+        "estado": "enviado",
+        "mensaje": "Pedidos enviado con \u00e9xito.",
+        "fecha_entrega": "2024-11-23"
+    },
+    {
+        "id": "PEDIDO3",
+        "tipo": "Pedidos",
+        "estado": "enviado",
+        "mensaje": "Pedidos enviado con \u00e9xito.",
+        "fecha_entrega": "2024-11-23"
+    },
+    {
+        "id": "PEDIDO4",
+        "tipo": "Pedidos",
+        "estado": "enviado",
+        "mensaje": "Pedidos enviado con \u00e9xito.",
+        "fecha_entrega": "2024-11-23"
+    },
+    {
+        "id": "PEDIDO5",
+        "tipo": "Pedidos",
+        "estado": "enviado",
+        "mensaje": "Pedidos enviado con \u00e9xito.",
+        "fecha_entrega": "2024-11-23"
+    },
+    {
+        "id": "PEDIDO1",
+        "tipo": "Pedidos",
+        "estado": "enviado",
+        "mensaje": "Pedidos enviado con \u00e9xito.",
+        "fecha_entrega": "2024-11-28"
+    },
+    {
+        "id": "DEV1",
+        "tipo": "devoluciones",
+        "estado": "enviado",
+        "mensaje": "devoluciones enviado con \u00e9xito.",
+        "fecha_entrega": "2024-11-28"
+    }
+]

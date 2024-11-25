@@ -1,0 +1,24 @@
+1° Debemos colocar la carpeta en el directorio htdocs en caso de xampp o en www en wamp
+   sin meterlos a otra carpeta, solo en la que de el comprimidos para que quede a modo de
+   http://localhost/Proyecto_final_ws_ENRUTADO
+
+2° Abrir la carpeta Proyecto_final_ws_ENRUTADO en Visual studio code, luego ejecutar el archivo
+   devoluciones.py.
+
+3° Navegar a la carpeta /Proyecto_final_ws_ENRUTADO/Empaquetadora/Stockproveedor y abrir el archivo
+   Stockproveedor.sln este lo deberemos de ejecutar en visual studio, nos preguntara sobre certificados
+   le daremos aceptar hasta que nos abra una terminal
+
+4° Acceder a la carpeta ngrok-v3-stable-windows-amd64 y ejecutar como administrador la aplicacion
+   ngrok.exe y escribir en el CMD "ngrok http 80" esperar a que nos muestre un CMD con un link
+   que de tipo https y copiarlo.
+
+   4.1 Despues de copiarlo deberemos navegar a la carpeta /Proyecto_final_ws_ENRUTADO/Empaquetadora/
+       y abrir el archivo "Envios.php" y pegar ese URL en la linea 4
+       sin eliminar las ultimas 2 rutas a modo que quede 
+       "https://LINK_OBTENIDO_DE_NGROK/Proyecto_final_ws_ENRUTADO/Empaquetadora/Envios.php"
+
+5° Despues podremos acceder a la carpeta /Proyecto_final_ws_ENRUTADO/Interfaz_cliente y abrir el archivo
+   index.html en caso de que no lo abra ahí podremos navegar y encontrar las opciones disponibles
+   en caso de requerirlo podemos usar el archivo JSON de la carpeta /Proyecto_final_ws_ENRUTADO/INSOMNIA
+   para poder hacer peticiones utilizando INSOMNIA. 

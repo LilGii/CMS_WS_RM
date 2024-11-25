@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario</title>
+    <link rel="stylesheet" href="tablas.css">
+</head>
+<body class="almacen">
+    <h1>Inventario de Productos</h1>
+    <button onclick="fetchInventario()">Cargar Inventario</button>
+    <div class="loader" id="loader"></div>
+    <table id="tablaInventario" style="display:none;">
+        <thead>
+            <tr>
+                <th class="almacen-th">Producto</th>
+                <th class="almacen-th">Cantidad</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table><br>
+    <button type="button" onclick="location.href='index.html';">Volver</button>
+    <script>
+        async function fetchInventario() {
+            const url = 'http://localhost/Proyecto_final_ws_ENRUTADO/Inventario/Almacenproductos';
+            const loader = document.getElementById('loader');
+            const table = document.getElementById('tablaInventario');
+            const tbody = table.querySelector('tbody');
+
+            // Mostrar el loader
+            loader.style.display = 'block';
+            table.style.display = 'none';
+
+            try {
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error(`Error en la solicitud: ${response.statusText}`);
+                }
+
+                const data = await response.json();
+
+                // Limpiar la tabla antes de llenarla
+                tbody.innerHTML = '';
+
+                // Iterar sobre los datos y llenar la tabla
+                for (const [producto, cantidad] of Object.entries(data)) {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `<td>${producto}</td><td>${cantidad}</td>`;
+                    tbody.appendChild(row);
+                }
+
+                // Mostrar la tabla
+                table.style.display = 'table';
+            } catch (error) {
+                alert(`Ocurrió un error al cargar el inventario: ${error.message}`);
+            } finally {
+                // Ocultar el loader
+                loader.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>

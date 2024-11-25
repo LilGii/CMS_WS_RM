@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notificaciones de Pedidos</title>
+    <link rel="stylesheet" href="tablas.css">
+</head>
+<body class="notificaciones">
+    <h1>Notificaciones de Pedidos</h1>
+    <table id="notificaciones">
+        <thead>
+            <tr>
+                <th class="notificaciones-th">ID</th>
+                <th class="notificaciones-th">Tipo</th>
+                <th class="notificaciones-th">Estado</th>
+                <th class="notificaciones-th">Mensaje</th>
+                <th class="notificaciones-th">Fecha de Entrega</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table><br>
+    <button type="button" onclick="location.href='index.html';">Volver</button>
+
+    <script>
+        // Conexión con el servidor para recibir notificaciones en tiempo real
+        async function obtenerNotificaciones() {
+            try {
+                const response = await fetch('/proyecto_final_ws_ENRUTADO/notificaciones.json'); // Simulación con un archivo
+                if (response.ok) {
+                    const notificaciones = await response.json();
+                    actualizarTabla(notificaciones);
+                }
+            } catch (error) {
+                console.error('Error al obtener notificaciones:', error);
+            }
+        }
+
+        function actualizarTabla(notificaciones) {
+            const tbody = document.querySelector('#notificaciones tbody');
+            tbody.innerHTML = ''; // Limpia la tabla antes de actualizar
+
+            notificaciones.forEach(notificacion => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${notificacion.id}</td>
+                    <td>${notificacion.tipo}</td>
+                    <td>${notificacion.estado}</td>
+                    <td>${notificacion.mensaje}</td>
+                    <td>${notificacion.fecha_entrega || 'N/A'}</td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        // Actualizar cada 5 segundos (puedes ajustar este tiempo)
+        setInterval(obtenerNotificaciones, 5000);
+
+        // Obtener las notificaciones al cargar la página
+        obtenerNotificaciones();
+    </script>
+</body>
+</html>

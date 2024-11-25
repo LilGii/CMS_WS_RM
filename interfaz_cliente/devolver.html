@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Devolución</title>
+    <link rel="stylesheet" href="formularios.css">
+</head>
+<body>
+    <h1>Crear Devolución</h1>
+    <form id="devolucionForm" class="devolucion">
+        <h3>Productos:</h3>
+        <div id="productosContainer">
+            <div class="product-row">
+                <input type="text" name="producto[]" placeholder="Producto" required>
+                <input type="number" name="cantidad[]" placeholder="Cantidad" min="1" required>
+                <button type="button" onclick="eliminarProducto(this)">Eliminar</button>
+            </div>
+        </div>
+        <button type="button" onclick="agregarProducto()">Agregar Producto</button>
+        <button type="button" onclick="location.href='index.html';">Volver</button>
+        <br><br>
+        <button type="submit">Enviar Devolución</button>
+    </form>
+
+    <script>
+        // Función para agregar una nueva fila de producto
+        function agregarProducto() {
+            const container = document.getElementById('productosContainer');
+            const row = document.createElement('div');
+            row.className = 'product-row';
+            row.innerHTML = `
+                <input type="text" name="producto[]" placeholder="Producto" required>
+                <input type="number" name="cantidad[]" placeholder="Cantidad" min="1" required>
+                <button type="button" onclick="eliminarProducto(this)">Eliminar</button>
+            `;
+            container.appendChild(row);
+        }
+
+        // Función para eliminar una fila de producto
+        function eliminarProducto(button) {
+            const row = button.parentNode;
+            row.remove();
+        }
+
+        // Enviar el formulario usando fetch
+        document.getElementById('devolucionForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const productos = {};
+
+            const productosInputs = document.querySelectorAll('[name="producto[]"]');
+            const cantidadesInputs = document.querySelectorAll('[name="cantidad[]"]');
+
+            productosInputs.forEach((input, index) => {
+                const producto = input.value.trim();
+                const cantidad = parseInt(cantidadesInputs[index].value, 10);
+
+                if (producto && cantidad) {
+                    productos[producto] = cantidad;
+                }
+            });
+
+            // Enviar datos al servidor Flask
+            fetch('http://127.0.0.1:5000/agregar_devoluciones', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(productos)
+            })
+            .then(response => response.json())
+            .then(response => {
+                if (response.error) {
+                    alert('Error: ' + response.error);
+                } else {
+                    alert('Devolución creada exitosamente.');
+                }
+            })
+            .catch(error => {
+                console.error('Error al enviar la devolución:', error);
+                alert('Error al enviar la devolución.');
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-decoration: none; /* Quita el subrayado */
+    color: inherit; /* Usa el color heredado (el de texto normal) */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card:nth-child(1) {
+    background-color: #f9c4c2;
+}
+
+.card:nth-child(2) {
+    background-color: #aefceb;
+}
+
+.card:nth-child(3) {
+    background-color: #f8dcbd;
+}
+
+.card:nth-child(4) {
+    background-color: #d0bafa;
+}

@@ -1,0 +1,85 @@
+
+.almacen {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8dcbd;
+    color: #333;
+}
+.notificaciones {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #d0bafa;
+    color: #333;
+}
+h1 {
+    text-align: center;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #ffbb93;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff9e7c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+.almacen-th {
+    background-color: #d8b48a;
+    color: #333;
+    font-weight: bold;
+}
+
+.notificaciones-th {
+    background-color: #b48ad8;
+    color: #333;
+    font-weight: bold;
+}
+td {
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+.loader {
+    display: none;
+    margin: 20px auto;
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #ffbb93;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
